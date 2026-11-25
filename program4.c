@@ -1,0 +1,60 @@
+/*
+    step1 : Understand the problem statement
+    step2 : write the algorithm 
+    step3 : decide the programming language
+    step4 : write the program 
+    step5 : Test the program 
+
+*/
+/////////////////////////////////////////////////////////////////////////////////
+//
+//  step1 : Understand the problem statement
+//          User is going to enter any 2 int 
+//          and we have to perform addition 
+//
+/////////////////////////////////////////////////////////////////////////////////
+//  step2 : write the algorithm 
+/*
+    Start 
+         Accept First number No1
+          Accept Secound number No2
+          create a variable as Ans to store the result 
+          perform the addition and store into Ans 
+          display the result from Ans 
+
+    End
+*/
+/////////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////////
+//
+// step3 : decide the programming language
+//         we select c programmming
+//
+/////////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////////////////
+//
+// step4 : write the program 
+//        
+/////////////////////////////////////////////////////////////////////////////////
+
+#include<stdio.h>
+
+int main()
+{
+    int iValue1 , iValue2 , iResult ;
+
+    printf("Enter Frist Number : \n");
+    scanf("%d", &iValue1);
+
+    printf("Enter Secound Number : \n");
+    scanf("%d", &iValue2);
+
+    iResult = iValue1 + iValue2 ;         //business logic 
+
+    printf("%d\n", iResult);
+
+    return 0;
+}
